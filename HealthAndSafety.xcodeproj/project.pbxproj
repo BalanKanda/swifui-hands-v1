@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FD8C4ACA29927AB20036F3B3 /* HealthAndSafetyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4AC929927AB20036F3B3 /* HealthAndSafetyApp.swift */; };
-		FD8C4ACC29927AB20036F3B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4ACB29927AB20036F3B3 /* ContentView.swift */; };
+		FD8C4ACC29927AB20036F3B3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4ACB29927AB20036F3B3 /* HomeView.swift */; };
 		FD8C4ACE29927AB20036F3B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8C4ACD29927AB20036F3B3 /* Assets.xcassets */; };
 		FD8C4AD129927AB20036F3B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD8C4AD029927AB20036F3B3 /* Preview Assets.xcassets */; };
+		FD8C4ADE2992AC070036F3B3 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4ADD2992AC070036F3B3 /* ContentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD8C4AC629927AB20036F3B3 /* HealthAndSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthAndSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD8C4AC929927AB20036F3B3 /* HealthAndSafetyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthAndSafetyApp.swift; sourceTree = "<group>"; };
-		FD8C4ACB29927AB20036F3B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD8C4ACB29927AB20036F3B3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FD8C4ACD29927AB20036F3B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD8C4AD029927AB20036F3B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD8C4ADD2992AC070036F3B3 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,11 @@
 			isa = PBXGroup;
 			children = (
 				FD8C4AC929927AB20036F3B3 /* HealthAndSafetyApp.swift */,
-				FD8C4ACB29927AB20036F3B3 /* ContentView.swift */,
+				FD8C4AD72992AAC40036F3B3 /* Views */,
+				FD8C4AD82992AACC0036F3B3 /* ViewModels */,
+				FD8C4ADA2992AAF80036F3B3 /* Models */,
+				FD8C4ADB2992AB090036F3B3 /* Resources */,
+				FD8C4ADC2992AB180036F3B3 /* Helpers */,
 				FD8C4ACD29927AB20036F3B3 /* Assets.xcassets */,
 				FD8C4ACF29927AB20036F3B3 /* Preview Content */,
 			);
@@ -65,6 +71,43 @@
 				FD8C4AD029927AB20036F3B3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FD8C4AD72992AAC40036F3B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C4ACB29927AB20036F3B3 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD8C4AD82992AACC0036F3B3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C4ADD2992AC070036F3B3 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FD8C4ADA2992AAF80036F3B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FD8C4ADB2992AB090036F3B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FD8C4ADC2992AB180036F3B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD8C4ACC29927AB20036F3B3 /* ContentView.swift in Sources */,
+				FD8C4ACC29927AB20036F3B3 /* HomeView.swift in Sources */,
 				FD8C4ACA29927AB20036F3B3 /* HealthAndSafetyApp.swift in Sources */,
+				FD8C4ADE2992AC070036F3B3 /* ContentModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
