@@ -16,7 +16,7 @@ struct HomeView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world! join to code with me")
         }
         .padding()
     }
