@@ -19,6 +19,8 @@
 		FD8C4AE82992F92B0036F3B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4AE72992F92B0036F3B3 /* ContentView.swift */; };
 		FD8C4AEA29931ACF0036F3B3 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4AE929931ACF0036F3B3 /* ContentViewRow.swift */; };
 		FD8C4AEC299321EC0036F3B3 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4AEB299321EC0036F3B3 /* ContentDetailView.swift */; };
+		FD8C4AEF299326440036F3B3 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD8C4AEE299326430036F3B3 /* AVKit.framework */; };
+		FD8C4AF12993281A0036F3B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8C4AF02993281A0036F3B3 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		FD8C4AE72992F92B0036F3B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD8C4AE929931ACF0036F3B3 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
 		FD8C4AEB299321EC0036F3B3 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
+		FD8C4AEE299326430036F3B3 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		FD8C4AF02993281A0036F3B3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8C4AEF299326440036F3B3 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +58,7 @@
 			children = (
 				FD8C4AC829927AB20036F3B3 /* HealthAndSafety */,
 				FD8C4AC729927AB20036F3B3 /* Products */,
+				FD8C4AED299326430036F3B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +126,7 @@
 			children = (
 				FD8C4AE02992C6580036F3B3 /* data.json */,
 				FD8C4ADF2992C6580036F3B3 /* style.html */,
+				FD8C4AF02993281A0036F3B3 /* Constants.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -129,6 +136,14 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FD8C4AED299326430036F3B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD8C4AEE299326430036F3B3 /* AVKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +226,7 @@
 				FD8C4AEA29931ACF0036F3B3 /* ContentViewRow.swift in Sources */,
 				FD8C4ADE2992AC070036F3B3 /* ContentModel.swift in Sources */,
 				FD8C4AE42992C8450036F3B3 /* Models.swift in Sources */,
+				FD8C4AF12993281A0036F3B3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
